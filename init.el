@@ -21,6 +21,6 @@
 (set-variable 'make-backup-files nil)
 
 ;; カスタム設定
-(let ((custom-file (expand-file-name "init-custom" user-emacs-directory)))
+(let ((custom-file (expand-file-name "init-custom.el" user-emacs-directory)))
   (when (file-exists-p custom-file)
     (load custom-file)))
