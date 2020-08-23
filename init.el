@@ -22,5 +22,5 @@
 
 ;; カスタム設定
 (let ((custom-file (expand-file-name "init-custom" user-emacs-directory)))
-  (when (file-exists-p custom-file))
-  (load custom-file))
+  (when (file-exists-p custom-file)
+    (load custom-file)))
